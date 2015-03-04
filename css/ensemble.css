@@ -1,0 +1,88 @@
+body{
+	background-color: #3d3d3d;
+    font-family: 'Lato', sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+    color: white;
+    padding-top: 30px;
+    height: inherit;
+}
+
+.top-logo{
+    width: 40px;
+    text-align: right;
+}
+
+.main-logo-only{
+    width: 210px;
+    padding-top: 20px;
+}
+
+.main-logo-letters{
+    width: 450px;
+}
+
+.main-slogan{
+    font-size: 2.5rem;
+    color: rgb(188, 228, 93);
+    padding-bottom: 40px;
+}
+
+.main-phrase{
+    font-size: 1rem;
+}
+
+.menu-container{
+    color: rgb(242, 91, 137);
+    padding: 10px;
+    font-weight: 600;
+}
+
+.member-portrait{
+    width: 140px;
+    height: 140px;
+    border: 2px solid white;
+    border-radius: 50%;
+    margin: auto;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+
+.member-lucas{
+    background-image: url("../img/lucas-fugisawa.jpg");
+    background-size: 240px auto;
+    background-position: -70px center;
+}
+
+.member-felipe{
+    background-image: url("../img/felipe-fabel.jpg");
+    background-size: 140px auto;
+    background-position: 0px center;
+}
+
+.member-adriano{
+    background-image: url("../img/adriano-cola.jpg");
+    background-size: 240px auto;
+    background-position: -40px -30px;
+}
+
+.member-work{
+    color: rgb(188, 228, 93);
+}
+
+.footer-text{
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.footer-trees{
+
+}
+
+.bg-bubbles{
+    background-color: rgba(255, 255, 255, 0.06);
+    border-radius: 50%;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.08);
+    position: absolute;
+    z-index: -1;
+}
