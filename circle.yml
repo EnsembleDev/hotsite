@@ -1,0 +1,6 @@
+deployment:
+  staging:
+    branch: master
+    codedeploy:
+      hotsite:
+        deployment_group: prod
