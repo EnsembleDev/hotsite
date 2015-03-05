@@ -4,3 +4,6 @@ deployment:
     codedeploy:
       hotsite:
         deployment_group: prod
+test:
+  override:
+    - echo "test"
