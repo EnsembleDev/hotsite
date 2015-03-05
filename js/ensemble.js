@@ -15,8 +15,13 @@ $(document).ready(function () {
     });
     
     var parts = ["mailto", "contato", "ensemble", "com", "br", "@", ".", ":"]; 
-    var email = parts[0] + parts[7] + parts[1] + parts[5] + parts[2] + parts[6] + parts[3] + parts[6] + parts[4];
-    $('.reach_mail').attr('href',email);
+    var to = parts[0] + parts[7]
+    var email = parts[5] + parts[2] + parts[6] + parts[3] + parts[6] + parts[4];
+
+    $('.reach-mail').attr('href',to+"contato"+email);
+    $('.reach-mail-lucas').attr('href',to+"lucas"+email);
+    $('.reach-mail-felipe').attr('href',to+"felipe"+email);
+    $('.reach-mail-adriano').attr('href',to+"adriano"+email);
     
 });
 
