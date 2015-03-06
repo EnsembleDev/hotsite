@@ -128,19 +128,7 @@ body{
     margin-right: 10px;
 }
 
-.reach_mail{
-	color: white;
-}
-
-.reach_mail:hover{
-	color: white;
-}
-
-.reach_mail:active{
-	color: white;
-}
-
-.reach_mail:visited{
+.has-mail,.has-mail:hover,.has-mail:active,.has-mail:visited,.has-mail:visited{
 	color: white;
 }
 
