@@ -18,10 +18,19 @@ $(document).ready(function () {
     var to = parts[0] + parts[7]
     var email = parts[5] + parts[2] + parts[6] + parts[3] + parts[6] + parts[4];
 
-    $('.reach-mail').attr('href',to+"contato"+email);
-    $('.reach-mail-lucas').attr('href',to+"lucas"+email);
-    $('.reach-mail-felipe').attr('href',to+"felipe"+email);
-    $('.reach-mail-adriano').attr('href',to+"adriano"+email);
+    $('.has-mail').mouseover(function () {
+        $('.reach-mail-contato').attr('href',to+"contato"+email);
+        $('.reach-mail-lucas').attr('href',to+"lucas"+email);
+        $('.reach-mail-felipe').attr('href',to+"felipe"+email);
+        $('.reach-mail-adriano').attr('href',to+"adriano"+email);
+    });
+
+    $('.has-mail').mouseleave(function () {
+        $('.reach-mail-contato').attr('href','');
+        $('.reach-mail-lucas').attr('href','');
+        $('.reach-mail-felipe').attr('href','');
+        $('.reach-mail-adriano').attr('href','');
+    });
     
 });
 
