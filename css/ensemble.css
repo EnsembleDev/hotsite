@@ -1,11 +1,18 @@
 body{
-	background-color: #cef146;
+	background-color: #474747;
     font-family: 'Lato', sans-serif;
     font-size: 12px;
     font-weight: 300;
     color: white;
-    padding-top: 10px;
     height: inherit;
+}
+
+.border{
+    height: 10px;
+    width: 100%;
+    background-color: #cef146;
+    position: absolute;
+    left: 0;
 }
 
 .top-logo{
