@@ -24,7 +24,7 @@ $(document).ready(function () {
     });
 
     $('.has-mail').mouseleave(function () {
-        $$(this).removeAttr('href');
+        $(this).removeAttr('href');
     });
     
 });
