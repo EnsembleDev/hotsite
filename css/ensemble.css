@@ -83,8 +83,7 @@ body{
 
 .member-adriano{
     background-image: url("../img/adriano-cola.jpg");
-    background-size: 240px auto;
-    background-position: -40px -30px;
+    background-size: 100%;
 }
 
 .member-work{
